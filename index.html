@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+        
+      <table border="1" id="table">
+        <tr id="firstTr" >
+          <td>نام کتاب</td>
+          <td>ناشر کتاب</td>
+          <td>نویسنده کتاب</td>
+          <td>ژانر کتاب</td>
+          <td>قیمت کتاب</td>
+        </tr>
+        
+      </table>
+      <div class="formContaoner">
+        <form action="" id="form">
+          <label for="bookName">نام کتاب</label>
+          <input type="text" name="bookName" />
+          <label for="bookPublisher">ناشر کتاب</label>
+          <input type="text" name="bookPublisher" />
+          <label for="author">نویسنده کتاب</label>
+          <input type="text" name="author" />
+          <label for="bookPrice">قیمت کتاب</label>
+          <input type="number" name="bookPrice" />
+          <select name="janre">
+            <option value="Academic">Academic</option>
+            <option value="Psychology">Psychology</option>
+            <option value="History">History</option>
+            <option value="comedy">comedy</option>
+            <option value="drama">drama</option>
+          </select>
+          <input type="submit" />
+        </form>
+      </div>
+    </main>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
